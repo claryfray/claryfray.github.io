@@ -2,12 +2,14 @@ body {
   
 }
 
-.title (
+h1 {
   font-family: sans serif;
-  font-size: 60px;
+  font-size: 60px; 
 }
 
 .footer {
   font-family: sans serif;
   font-size: 60px;
+  justify-self: center;
+  align-self: end;
 }
