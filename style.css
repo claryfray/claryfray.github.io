@@ -1,12 +1,11 @@
 body {
-  background-image: url("https://photos.app.goo.gl/AnBNptNJf6dg9Ueo8"), url("https://photos.app.goo.gl/WAaLcM96E4EeaQFi7"), url("https://photos.app.goo.gl/dijRpKejrcuTUX5y8");
+  background-image: url("https://photos.app.goo.gl/AnBNptNJf6dg9Ueo8"), 
+    url("https://photos.app.goo.gl/WAaLcM96E4EeaQFi7"), 
+    url("https://photos.app.goo.gl/dijRpKejrcuTUX5y8");
 }
 
 head {
-  display: grid;
-  align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  grid-template-rows: repeat(auto-fit, minmax(160px, 1fr));
+
 }
 
 h1 {
