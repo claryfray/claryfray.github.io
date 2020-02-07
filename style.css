@@ -16,11 +16,31 @@ p {
 
 .photo {
   grid-column-start: 1;
-  grid-column-start: span 1;
+  grid-column-end: span 1;
 }
 
 .intro {
   grid-column-start: 2;
-  grid-column-start: span 1;
+  grid-column-end: span 1;
   font-color: light gray;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project1 {
+  grid-column-start: 1;
+  grid-column-end: span 1;
+}
+
+.project2 {
+  grid-column-start: 2;
+  grid-column-end: span 1;
+}
+
+.project3 {
+  grid-column-start: 3;
+  grid-column-end: span 1;
 }
