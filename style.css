@@ -22,5 +22,5 @@ p {
 .intro {
   grid-column-start: 2;
   grid-column-start: span 1;
-  font-color: dark gray;
+  font-color: light gray;
 }
